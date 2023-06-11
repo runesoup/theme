@@ -1,0 +1,707 @@
+/*
+	Theme Name:   Rune Soup (Jannah Child)
+	Template:     jannah
+	Version:      1.1.8.7
+	Text Domain:  jannah-child
+*/
+/*
+	background-color: #247b1a;; rs-green
+ color:#3bd222; light/bright green
+background-color: #1f2024; grey
+*/
+
+/* login page */
+#wp-submit.button-primary {
+    background-color: #247b1a;
+    border-color: #247b1a;
+}
+/* front page */
+
+#content .rs-front-member-nav a:hover ,#main-nav .menu ul.menu-sub-content li:hover > a{
+	color:#3bd222;
+	text-decoration: unset !important;
+}
+
+.rs-front-member-nav .wp-block-group__inner-container  {
+	background-color: #1f2024;
+}
+
+.rs-front-member-nav p a  {
+	text-transform:uppercase;
+	min-height: 48px;
+}
+
+#content .rs-front-member-nav a {
+	color:#ffffff;
+}
+
+#content .rs-front-member-nav a:hover {
+	color:#247b1a;
+	text-decoration: unset !important;
+}
+
+.rs-front-tarl-video a.title {
+	font-size:24px;
+	font-weight: 600;
+}
+
+h1.rs-front-header-first {
+	margin-top: -60px;
+}
+
+@media only screen  and (min-width: 601px) {
+	.single-tribe_events h1.tribe-events-single-event-title{ 
+	font-size: 64px;
+	}  
+}
+
+
+@media only screen  and (max-width: 600px) {
+	.entry h1.rs-front-header, .single-tribe_events h1.tribe-events-single-event-title{ 
+	font-size: 36px;
+	}  
+}
+
+@media only screen  and (max-width: 430px) {
+	.entry h1.rs-front-header, .single-tribe_events h1.tribe-events-single-event-title{ 
+	font-size: 20px;
+	} 
+}
+
+@media (min-width: 961px) and (max-width: 1260px){
+    .rs-front-member-nav .wp-block-column:not(:first-child) {
+        margin-left:0px;
+    }
+    .rs-front-member-nav p {
+        padding: 0;
+	}
+}
+
+@media (max-width: 960px) {
+  .wp-block-columns {
+        flex-wrap:wrap;
+	}
+    .wp-block-column:not(:first-child) {
+        margin-left:0px
+    }
+}
+
+@media only screen and (min-width: 666px) {
+		h1.rs-front-header, .single-tribe_events h1.tribe-events-single-event-title{ 
+		letter-spacing: 4px;
+	} 
+}
+
+@media only screen and (min-width: 666px) {
+		h1.rs-front-header, .single-tribe_events h1.tribe-events-single-event-title{ 
+		letter-spacing: 4px;
+	} 
+}
+
+@media only screen and (min-width: 800px) {
+		h1.rs-front-header, .single-tribe_events h1.tribe-events-single-event-title{ 
+		letter-spacing: 15px;
+	}
+}
+
+h1.page-title, .rs-front-header{
+	text-align: center;
+}
+
+
+div h2.rs-front-header{
+	font-size: 36px;
+	font-weight:800;
+	letter-spacing: 2px;
+}
+
+#the-post .entry-content .wp-block-cover__inner-container p.rs-healing-copy {
+	font-size: 20px;
+	text-align: center;
+}
+
+.wp-block-cover__inner-container h2.rs-front-cover-healing{
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	
+}
+
+.rs-front-shop .wc-block-grid__products .wc-block-grid__product {
+ margin-bottom: 0px;	
+ 
+}
+.rs-front-shop .wc-block-grid__product div.wc-block-grid__product-add-to-cart {
+	display:none;
+}
+
+.rs-front-shop .wc-block-grid__product div.wc-block-grid__product-add-to-cart a{
+	color: white;
+	background-color: #247b1a;
+}
+
+.rs-front-shop a.wc-block-grid__product-link:hover + div.wc-block-grid__product-add-to-cart {
+	z-index:0;
+	display: block;
+	position: absolute;
+	top: 170px;
+}
+
+.rs-front-head-menu {
+	border-bottom: solid #247b1a 2px;
+	padding-left: 15px;
+	letter-spacing: 0.05em;
+	line-height: 2em;
+}
+
+.rs-front-img-centre img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+	.rs-tarl-column {
+		display: none; 
+	}
+	.rs-login-column, .rs-about-column {
+		min-width:50%;
+	}
+}
+
+.rs-front-page-login {
+	padding: 15px;
+	border: 2px solid #247b1a;
+	border-radius: 15px;
+}
+
+#rs_loginform .login-username input, #rs_loginform .login-password input {
+	float:right;
+}
+
+#rs_loginform .login-submit .button{
+	width: 100%;
+}
+
+.entry .rs-front-forum-group p {
+    margin-bottom: 0;   
+}
+
+.rs-front-tarl-group {
+	background-image: url("https://runesoup.com/wp-content/uploads/2020/01/TARL_BG.png");
+	height: 320px; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.rs-front-tarl-group .display-posts-listing {
+	min-height: 320px;
+	margin-left: 10%;
+	max-width:80%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+	.entry .rs-front-tarl-group .display-posts-listing li.listing-item {
+		list-style-position: inside;
+		padding-bottom: 4px;
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.rs-course-thumb.wp-block-cover h1 {
+ 		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.rs-course-thumb.wp-block-cover h1 {
+ 		font-size: 36px;
+	}
+}
+
+
+@media only screen and (min-width: 769px) {
+	.entry .rs-front-tarl-group .display-posts-listing li.listing-item {
+		list-style-position: inside;
+		padding-bottom: 24px;
+	}
+}
+
+.rs-front-tarl-group .mailster-form-7 {
+	height: 320px;
+	margin-left:5%;
+	max-width:50%;
+	background-color: rgba(255, 255, 255, 0.8)
+}
+
+.rs-front-tarl-group .mailster-form-7 .mailster-form-fields {
+	padding: 15px 15px 15px 15px;
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) and (min-width: 600px) {
+.front-gordon-image {
+	max-width: 125px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+.front-gordon-image {
+	margin-bottom: 0%;
+	max-width:200px;
+	margin:auto;
+	align:center;
+	}
+.front-gordon-image figure {
+	margin-bottom: -5%;
+	}
+ }
+
+.wp-block-cover.rs-course-front{
+	line-height: 60px;
+}
+
+#the-post .entry-content .wp-block-cover__inner-container p {
+	font-size: 48px;
+	}
+
+@media only screen and (max-width: 1025px) {
+	.entry-header h1.post-title.entry-title {
+		font-size: 36px; 
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.entry-header h1.post-title.entry-title  {
+		font-size: 24px; 
+	}
+}
+
+.rs-front-tarl-group div.mailster-wrapper input::placeholder {
+	color: #247b1a;
+	opacity: 100%;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+/* Round avatars */
+.avatar-14, .avatar-80, .avatar-150 {
+	border-radius: 100%;
+}
+
+/* Checkout */
+@media only screen and (min-width: 993px) {
+        body .woocommerce .col2-set .col-1{width:100%;}
+        .woocommerce-billing-fields h3{margin-top:40px;}
+        .woocommerce .col2-set, .woocommerce-page .col2-set{width:48%;float:left;}
+        #order_review_heading, .woocommerce #order_review, .woocommerce-page #order_review{float:left;width:48%;margin-left:2%;}
+
+}
+
+.rspm-opc-table {
+  display: flex;
+  justify-content: space-between;}
+
+.rspm-opc-table-4 div.opc-pricing-table-product.product-item.cart {
+   min-height: 220px;
+   border-color: #247b1a;
+   border-width: 3px;
+   border-radius: 5px;
+   width: 21%; !important
+   margin-left: 10px; !important
+   }
+
+.rspm-opc-table-2 div.opc-pricing-table-product.product-item.cart {
+   min-height: 220px;
+   border-color: #247b1a;
+   border-width: 3px;
+   border-radius: 5px;
+   width: 42%; !important
+   margin-left: 10px; !important
+   }
+
+
+.rspm-opc-table div.opc-pricing-table-product.product-item.cart:not(:first-child) {border-left-style: solid;}
+
+.rspm-opc-table  .opc-pricing-table-product-price .woocommerce-Price-amount {
+  font-size: 30px;
+}
+
+.rspm-opc-table  .opc-pricing-table-product-price .subscription-details {
+  display: block;
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.rspm-opc-table  .opc-pricing-table-product-price .subscription-details .woocommerce-Price-amount {
+  display: block;
+  font-size: 14px;
+}
+
+.rspm-opc-table .button {
+  margin-top: 10px;
+  width: 50%;
+  right:25%;
+}
+
+.rspm-opc-table .wc-south.opc-complete-order{
+  padding-top: 10px;
+}
+
+/* RS Green Ruled line. */
+
+hr.rs-ruled-line.wp-block-separator.has-background   {
+	height:5px;
+	margin-left:-100%;
+	margin-right:-100%;
+}
+
+/* RS Previous TARL page */
+.rs-previous-tarl-group {
+	background-image: url(https://cdn1.runesoup.com/wp-content/uploads/2018/01/1902AllRedLineMap.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.entry .wp-block-columns .rs-previous-tarl-middle-col {
+	background-color: rgba(255,255,255,0.88) ;
+	padding: 20px 0 50px 30px;	
+}
+
+/* RS Course page */
+.rs-course-thumb {
+ max-height:250px	
+}
+
+.rs-course-list {
+	padding: 20px;
+}
+
+.rs-course-thumb h1 {
+ letter-spacing: 8px;
+}
+
+/* smaller video embeds. */
+@media only screen and (min-width: 700px) {
+	#the-post .is-type-video .wp-block-embed__wrapper {
+		max-width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
+
+
+/* live tarl and intention chat */
+
+@media only screen and (min-width: 1025px) {
+.rs-live-chat-group {
+ padding-right:40px;	
+ }
+}
+
+.rs-live-notes {
+	padding-left: 50px;
+}
+
+/* profile tab icons */
+.bp-dir-hori-nav:not(.bp-vertical-navs) .main-navs:not(.dir-navs) #user-billing:before{
+    font-family: "tiefonticon";
+    content: "\e685";
+    display: block;
+    font-size: 30px;
+} 
+
+/* spacing on bp buddypress search highlighting */
+.entry mark.gdpos-keyword {
+     padding: 0;
+     }
+
+/* size of bp business logo images */
+.editfield.field_677 img.bpxcftr-image, .editfield.field_679 img.bpxcftr-image, .editfield.field_680 img.bpxcftr-image, .editfield.field_681 img.bpxcftr-image {
+	padding-top: 10px;
+	max-height: 400px;
+}
+
+.profile-fields.bp-tables-user .field_677 img.bpxcftr-image, .profile-fields.bp-tables-user .field_679 img.bpxcftr-image, .profile-fields.bp-tables-user .field_680 img.bpxcftr-image, .profile-fields.bp-tables-user .field_681 img.bpxcftr-image {
+	max-height: 400px;
+}
+
+/* Sign Up Page */
+
+@media only screen and (max-width: 1024px) {
+	.rs-course-signup-cols div {
+		margin-bottom: 20px;
+		max-width: 250px;
+	}
+	.rs-course-thumb-signup .wp-block-cover__inner-container h1{
+		font-size: 20px;
+		margin-bottom: 0;		
+	}
+	.rs-course-resaons-list {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.rs-course-signup-cols div {
+		margin-bottom: 20px;
+		max-width: 175px;
+	}
+	.rs-course-thumb-signup .wp-block-cover__inner-container h1{
+		font-size: 16px;
+		margin-bottom: 0;		
+	}
+	.rs-course-resaons-list {
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.rs-course-signup-cols div {
+		margin-bottom: 20px;
+	}
+	.rs-course-thumb-signup .wp-block-cover__inner-container h1{
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+	.rs-course-resaons-list {
+		font-size: 20px;
+		line-height: 40px;		
+	}
+}
+
+div.rs-course-thumb-signup {
+  min-height:125px;
+}
+
+h3.rs-reason-signup, h4.rs-reason-signup {
+	padding: 20px;
+	margin: 5px;
+}
+
+.rs-reason-signup {
+	background-color: #247b1a;
+	color: white;
+	border-radius: 4px;
+}
+
+/* align premium membership correctly on product page */
+#product-69804 div.summary.entry-summary {
+	float: left;
+}
+
+/* Events - Map */
+.tribe-events-venue-map {
+ max-height: 400px;   
+}
+
+/* Events - Buttons */
+.tribe-common .tribe-common-c-btn, #tribe-events  a.tribe-events-button {
+    background-color: #247b1a;
+}
+
+.tribe-common .tribe-common-c-btn:hover, #tribe-events  a.tribe-events-button:hover {
+    background-color: #3bd222;
+}
+
+/* Events - Nav */
+.tribe-events-nav-next a{
+    color: #247b1a;
+
+}
+
+.single-tribe_events h1.tribe-events-single-event-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Centre Twitter Embed  */
+twitter-widget{
+display: inline-block;
+}
+
+/* Button on Intention Page  */
+.rs-intention-button a {
+	min-width: 60%;
+	padding: 15px;
+}
+div.rs-intention-button a{
+    color : white;
+}
+
+.rs-green-button a.wp-block-button__link , .rs-green-button a.wp-block-button__link:hover{
+    color : white;
+}
+
+/* Card block  */
+
+.entry .rs-card h4 {
+	padding-top: 15px;
+	margin: 0;
+	font-size: 24px;
+}
+
+.rs-card p {
+	padding-bottom: 25px;
+	margin: 0;
+}
+
+/* Twitter Embed Max Width to force centre  */
+.wp-block-embed-twitter {
+max-width: 600px;
+}
+
+/* Business Directory  */
+.rs-business-logo {
+max-width: 150px;
+max-height: 150px;
+}
+
+.rs-business-image {
+	max-width: 32%;
+	padding: 0 2% 0 2%;
+	max-height: 300px;
+	vertical-align: top;
+}
+
+.item h1.list-title.rs-business-name {
+	font-size: 32px;
+	letter-spacing: 1px;
+	font-weight:600;
+	text-transform: uppercase;
+	text-decoration: underline solid #247b1a;
+}
+
+li.rs-business span {
+	padding: 0 5px 0 15px;
+	color: black;
+	font-size: 16px;
+} 
+
+li.rs-business p {
+	font-size: 14px;
+	display:inline;
+}
+
+li.rs-business #text {
+	font-size: 14px;
+	display:inline;
+}
+
+/* Amelia Bookings */
+#amelia-booking-wrap .am-step-booking-catalog .am-select-date .am-appointment-times .el-radio-group label.el-radio-button.el-radio-button--medium.is-active .el-radio-button__inner{
+	background-color: #E5E9E7;
+ 	font-weight: bold;
+} 
+
+/* Healing Page*/
+
+#the-post .wp-block-cover p.has-text-align-center.rs-healing-cover-p {
+ 	font-size: 16px;
+	padding: 14px;
+    border: solid;
+    border-color: #247b1a;
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+	width:25%;
+}
+
+#the-post .entry-content .rs-healing-p {
+    font-size: 16px;
+}
+
+.entry .alignfull.rs-healing-cover-main {
+    margin-top: -30px;
+	background-position-y: 0%;
+}
+
+/* Sensei RS Courses*/
+.sensei-course-theme {
+        font-family: 'Roboto';
+	    font-size: 14px;
+}
+
+div.sensei-course-theme__header {
+    height: 85px;
+}
+
+.wp-block-sensei-lms-course-outline-module__header {
+    text-transform:uppercase;
+    letter-spacing: 1px;
+}
+
+.rs-course-header {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: auto;
+    max-width: 1000%;
+}
+
+@media only screen  and (min-width: 601px) {
+.sensei-course-theme h1, .wp-block-cover.rs-course-header {
+    text-transform:uppercase;
+    font-family: 'Dosis Bold';
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+		}
+	}  
+
+
+@media only screen  and (max-width: 600px) {
+.sensei-course-theme h1, .wp-block-cover.rs-course-header {
+    text-transform:uppercase;
+    font-family: 'Dosis Bold';
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+		}
+	}
+
+.sensei-course-theme h1, .wp-block-cover.rs-course-header {
+    text-transform:uppercase;
+    font-family: 'Dosis Bold';
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sensei-course-theme ul, .sensei-course-theme ol {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.sensei-course-theme ul li {
+        list-style-type: disc;
+}
+
+.sensei-course-theme ol li {
+        list-style-type: number;
+}
+
+.wp-block-sensei-lms-course-outline-module__lessons-title {
+    display:none;
+}
+
+.wp-block-sensei-lms-ui p {
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+.wp-block-sensei-lms-ui h2 {
+    margin-bottom: 25px;
+    text-transform:uppercase;
+}
